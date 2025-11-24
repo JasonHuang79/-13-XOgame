@@ -1,0 +1,4 @@
+﻿D:\vs\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Project14.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  源.cpp
+E:\C语言\Project14\Project14\源.cpp(152,10): warning C4551: 缺少参数列表的函数调用
+  Project14.vcxproj -> E:\C语言\Project14\x64\Debug\井字棋.exe
