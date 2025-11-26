@@ -1,0 +1,13 @@
+name: Release Pipeline (OTA)
+
+on:
+  workflow_dispatch:
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  create-tag:
+    name: Create OTA Release Tag in Release
+    runs-on: ubuntu-latest
+    steps:
